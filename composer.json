@@ -1,0 +1,59 @@
+{
+    "name": "arash-anvari/uuid-inspector",
+    "description": "A modern Laravel package to parse and extract information from UUIDs (v1-v5) with full support for Laravel integration.",
+    "keywords": [
+        "laravel",
+        "php",
+        "uuid",
+        "uuid-inspector",
+        "uuid-parser",
+        "uuid-validation",
+        "uuid-analysis",
+        "uuid-extractor",
+        "uuid-v1",
+        "uuid-v2",
+        "uuid-v3",
+        "uuid-v4",
+        "uuid-v5",
+        "uuid-tools",
+        "arash-anvari"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/arash-anvari/uuid-inspector",
+    "authors": [
+        {
+            "name": "Arash Anvari",
+            "email": "arashanvari1988@gmail.com",
+            "homepage": "https://arashanvari.ir",
+            "role": "Software Engineer & Senior Web Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ArashAnvari\\UuidInspector\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ArashAnvari\\UuidInspector\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ArashAnvari\\UuidInspector\\UuidInspectorServiceProvider"
+            ]
+        }
+    }
+}
